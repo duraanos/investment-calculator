@@ -1,22 +1,66 @@
+import { useState } from 'react';
+
 function UserInput() {
+  const [userInput, setUserInput] = useState({
+    initialInvestment: 10000,
+    annualInvestment: 1200,
+    expectedReturn: 6,
+    duration: 10,
+  });
+
+  function handleChange(inputIdentifier, nextValue) {
+    setUserInput(prevUserInput => {
+      return {
+        ...prevUserInput,
+        [inputIdentifier]: nextValue,
+      };
+    });
+  }
+
   return (
     <section id="user-input">
       <div className="input-group">
         <p>
           <label>Initial Investment</label>
-          <input type="number" />
+          <input
+            type="number"
+            required
+            value={userInput.initialInvestment}
+            onChange={event =>
+              handleChange('initialInvestment', event.target.value)
+            }
+          />
         </p>
         <p>
           <label>Annual Investment</label>
-          <input type="number" />
+          <input
+            type="number"
+            required
+            value={userInput.annualInvestment}
+            onChange={event =>
+              handleChange('annualInvestment', event.target.value)
+            }
+          />
         </p>
         <p>
           <label>Expected Result</label>
-          <input type="number" />
+          <input
+            type="number"
+            required
+            value={userInput.expectedReturn}
+            onChange={event =>
+              handleChange('expectedResult', event.target.value)
+            }
+          />
         </p>
         <p>
           <label>Duration</label>
-          <input type="number" />
+          <input
+            type="number"
+            required
+            value={userInput.duration}
+            onChange={event => handleChange('duration', event.target.value)}
+          />
         </p>
       </div>
     </section>
