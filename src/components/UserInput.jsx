@@ -1,6 +1,4 @@
-import { useState } from 'react';
-
-function UserInput() {
+function UserInput({ userInput, onChange }) {
   return (
     <section id="user-input">
       <div className="input-group">
@@ -11,7 +9,7 @@ function UserInput() {
             required
             value={userInput.initialInvestment}
             onChange={event =>
-              handleChange('initialInvestment', event.target.value)
+              onChange('initialInvestment', event.target.value)
             }
           />
         </p>
@@ -21,9 +19,7 @@ function UserInput() {
             type="number"
             required
             value={userInput.annualInvestment}
-            onChange={event =>
-              handleChange('annualInvestment', event.target.value)
-            }
+            onChange={event => onChange('annualInvestment', event.target.value)}
           />
         </p>
         <p>
@@ -32,9 +28,7 @@ function UserInput() {
             type="number"
             required
             value={userInput.expectedReturn}
-            onChange={event =>
-              handleChange('expectedResult', event.target.value)
-            }
+            onChange={event => onChange('expectedResult', event.target.value)}
           />
         </p>
         <p>
@@ -43,7 +37,7 @@ function UserInput() {
             type="number"
             required
             value={userInput.duration}
-            onChange={event => handleChange('duration', event.target.value)}
+            onChange={event => onChange('duration', event.target.value)}
           />
         </p>
       </div>
