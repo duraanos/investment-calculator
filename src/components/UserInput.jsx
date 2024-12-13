@@ -1,22 +1,6 @@
 import { useState } from 'react';
 
 function UserInput() {
-  const [userInput, setUserInput] = useState({
-    initialInvestment: 10000,
-    annualInvestment: 1200,
-    expectedReturn: 6,
-    duration: 10,
-  });
-
-  function handleChange(inputIdentifier, nextValue) {
-    setUserInput(prevUserInput => {
-      return {
-        ...prevUserInput,
-        [inputIdentifier]: nextValue,
-      };
-    });
-  }
-
   return (
     <section id="user-input">
       <div className="input-group">
