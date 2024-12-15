@@ -51,3 +51,8 @@ function App() {
 
 export default App;
 ```
+
+## Motivation
+
+The motivation behind developing an investment calculator app is to empower individuals to make informed financial decisions through a user-friendly financial calculator. Many users struggle with understanding the potential growth of their investments due to limited access to intuitive tools. This app bridges that gap, offering features.
+
