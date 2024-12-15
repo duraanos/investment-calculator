@@ -1,8 +1,5 @@
-# React + Vite
+![investment-calculator-app-ss](https://github.com/user-attachments/assets/267b3452-6dd7-4e3e-b6e2-0369d5532f4c)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Investment Calculator Application with React.js
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Investment Calculator App is a comprehensive tool designed to simplify financial planning for users. This personal finance app enables individuals to calculate potential returns on investments by inputting variables like initial amount, interest rate, time horizon, and contribution frequency. Ideal for beginners and professionals, the app doubles as an investment tracking app, offering detailed breakdowns to help maximize wealth. Discover the best way to manage finances with this powerful financial calculator app.
