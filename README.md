@@ -98,3 +98,8 @@ The motivation behind developing an investment calculator app is to empower indi
 
 ## Conclusion
 The Investment Calculator project was successfully developed to provide users with a seamless and intuitive tool for calculating potential returns and managing their finances. Combining a user-friendly design with robust functionality, the app allows users to input various parameters and visualize outcomes in real time. By incorporating modern development practices and ensuring high performance, the app caters to both novice and experienced users seeking a reliable financial calculator. The app empowers users to make informed financial decisions, offering a versatile growth calculator, portfolio calculator, and return calculator. 
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
