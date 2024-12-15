@@ -5,13 +5,15 @@
 The Investment Calculator App is a comprehensive tool designed to simplify financial planning for users. This personal finance app enables individuals to calculate potential returns on investments by inputting variables like initial amount, interest rate, time horizon, and contribution frequency. Ideal for beginners and professionals, the app doubles as an investment tracking app, offering detailed breakdowns to help maximize wealth. Discover the best way to manage finances with this powerful financial calculator app.
 
 ## Features
+
 - Annual return on investment value calculation
 - Annual return on interest calculation
 - Annual return on total interest calculation
 - Annual return on invested capital calculation
 
 ## Overview
-```JSX 
+
+```JSX
 import { useState } from 'react';
 
 import Header from './components/Header.jsx';
@@ -57,11 +59,11 @@ export default App;
 The motivation behind developing an investment calculator app is to empower individuals to make informed financial decisions through a user-friendly financial calculator. Many users struggle with understanding the potential growth of their investments due to limited access to intuitive tools. This app bridges that gap, offering features.
 
 ## Installation
+
 1. On GitHub.com, navigate to the main page of the repository
 2. Above the list of files, click <> **Code**
 
 ![project-image1](https://github.com/user-attachments/assets/b7ef6117-bdf9-4b77-b775-41c3a494b689)
-
 
 3. Copy the URL for the repository.
 
@@ -80,6 +82,7 @@ The motivation behind developing an investment calculator app is to empower indi
    https://github.com/duraanos/investment-calculator.git
    ```
 7. Press **Enter** to create your local clone
+
    ```bash
 
    $ git clone https://github.com/duraanos/investment-calculator.git
@@ -87,12 +90,11 @@ The motivation behind developing an investment calculator app is to empower indi
    remote: Enumerating objects: 308, done.
    remote: Counting objects: 100% (130/130), done.
    remote: Compressing objects: 100% (94/94), done.
-   Rremote: Total 308 (delta 65), reused 95 (delta 32), pack- 
+   Rremote: Total 308 (delta 65), reused 95 (delta 32), pack-
    reused 178 (from 1)
    Receiving objects: 100% (308/308), 32.46 KiB | 443.00 KiB/s, done.
    Resolving deltas: 100% (153/153), done.
-
-```
+   ```
 
 ## Conclusion
-The Investment Calculator app project was successfully developed to provide users with a seamless and intuitive tool for calculating potential returns and managing their finances. Combining a user-friendly design with robust functionality, the app allows users to input various parameters and visualize outcomes in real time. By incorporating modern development practices and ensuring high performance, the app caters to both novice and experienced users seeking a reliable financial calculator. The app empowers users to make informed financial decisions, offering a versatile growth calculator, portfolio calculator, and return calculator. 
+The Investment Calculator app project was successfully developed to provide users with a seamless and intuitive tool for calculating potential returns and managing their finances. Combining a user-friendly design with robust functionality, the app allows users to input various parameters and visualize outcomes in real time. By incorporating modern development practices and ensuring high performance, the app caters to both novice and experienced users seeking a reliable financial calculator. The app empowers users to make informed financial decisions, offering a versatile growth calculator, portfolio calculator, and return calculator.
